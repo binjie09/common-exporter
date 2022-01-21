@@ -5,7 +5,7 @@
 > nodejs编写的prometheus exporter 简单，前端熟悉，适用于简单的接口开发，非常适用于BFF模式 —— Backend for frontend（服务于前端的后端）
 
 该demo实现了k1pool的监控数据导出（prometheus exporter），以下为配置后的效果
-![](https://raw.githubusercontent.com/binjie09/common-exporter/main/img/example.png)
+![](https://github.com/binjie09/common-exporter/raw/main/img/example.png)
 
 ## BFF模式学习与应用
 
@@ -18,11 +18,11 @@
 
 Answer: 省时、省钱
 
-当今是前后端高度分工的是到，
+当今是前后端高度分工的时代，
 某些需要快速开发快速集成的项目，
 前端会遇到需要整合不同网关，不同云厂商，不同产品的接口的时候，
 往往依赖于后端开发人员来提供支持，
-为此我们要付出后端与前端的沟通成本，付出后端开发人员的人天，
+为此我们要付出后端与前端的沟通成本，付出后端开发人员的人天...
 
 前端应当能自己搞定这些事情
 
