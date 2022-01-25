@@ -3,7 +3,7 @@ import axios from 'axios';
 
 const app = new Koa();
 let res = { data: {} };
-const fetchData = async () => await axios.get(`https://k1pool.com/api/miner/eth/${process.env.eth}`);
+const fetchData = async () => res = await axios.get(`https://k1pool.com/api/miner/eth/${process.env.eth}`);
 fetchData();
 setInterval(fetchData, 60000);
 
